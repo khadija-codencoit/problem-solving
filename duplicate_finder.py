@@ -1,6 +1,3 @@
-
-items = [11,8,8]
-
 def find_duplicates(items):
     s = set()
     duplicates = set()
@@ -14,9 +11,10 @@ def find_duplicates(items):
         return list(duplicates)
     else:
         return "No dublicats found"
-    
 
-duplicate = find_duplicates(items)
+list1 = [11,8,8,99,99]  
+
+duplicate = find_duplicates(list1)
 
 print("Duplicate Values : ",duplicate)
 
