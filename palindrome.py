@@ -1,12 +1,3 @@
-# value = input("Enter the value : ")
-
-# reverse = value[::-1]
-
-# if value == reverse:
-#     print("Yes! this is palindrome")
-# else:
-#     print("This is not palindrome")
-
 class Solution:
     def isPalindrome(self,x):
         if x < 0:
@@ -18,3 +9,14 @@ class Solution:
 solution = Solution()
 
 print(solution.isPalindrome(121)) 
+
+
+
+# value = input("Enter the value : ")
+
+# reverse = value[::-1]
+
+# if value == reverse:
+#     print("Yes! this is palindrome")
+# else:
+#     print("This is not palindrome")
